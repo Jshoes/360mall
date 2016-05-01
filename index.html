@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="css/swiper.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/iconfont.css">
+	<link rel="stylesheet" href="css/index.css">
+	<style>
+		html, body {
+			position: relative;
+			height: 100%;
+		}
+		body {
+			background: #eee;
+			font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+			font-size: 14px;
+			color:#000;
+			margin: 0;
+			padding: 0;
+		}
+		.swiper-container {
+			width: 100%;
+			height: 176px;
+
+		}
+		.swiper-slide {
+			text-align: center;
+			font-size: 18px;
+			background: #fff;
+			/* Center slide text vertically */
+			/*display: -webkit-box;
+			display: -ms-flexbox;
+			display: -webkit-flex;
+			display: flex;*/
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			-webkit-justify-content: center;
+			justify-content: center;
+			-webkit-box-align: center;
+			-ms-flex-align: center;
+			-webkit-align-items: center;
+			align-items: center;
+		}
+		.bg{
+			height: 176px;
+			background-size: cover;
+		}
+		.bg1{
+			background-image: url(image/banner1.png);
+		}
+		.bg2{
+			background-image: url(image/banner2.jpg);
+		}
+		.bg3{
+			background-image: url(image/banner3.jpg);
+		}
+		.bg4{
+			background-image: url(image/banner4.jpg);
+		}
+		.bg5{
+			background-image: url(image/banner5.jpg);
+		}
+		.bg6{
+			background-image: url(image/banner6.png);
+		}
+	</style>
+</head>
+<body>
+	<!-- 顶部可关闭广告 -->
+	<div class="top-ads">
+		<span class="closebtn iconfont">&#xe600;</span>
+		<a href="javascript:;">
+			<div class="ads-img"></div>
+			<span class="down-text">360商城APP</br>客户端首次登陆送5元登陆券</span>
+		</a>
+	</div>
+	<!-- 顶部可关闭广告 -->
+	<!-- 轮播 -->
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide bg bg1"></div>
+				<div class="swiper-slide bg bg2"></div>
+				<div class="swiper-slide bg bg3"></div>
+				<div class="swiper-slide bg bg4"></div>
+				<div class="swiper-slide bg bg5"></div>
+				<div class="swiper-slide bg bg6"></div>
+			</div>
+			<!-- Add Pagination -->
+			<div class="swiper-pagination"></div>
+		</div>
+	<!-- 轮播 -->
+	<!-- 中间导航 -->
+	<div class="nav">
+		<a href="javascript:;">
+			<img src="image/nav1.png">
+			<span>智品牌</span>
+		</a>
+		<a href="javascript:;">
+			<img src="image/nav2.png">
+			<span>360</span>
+		</a>
+		<a href="javascript:;">
+			<img src="image/nav3.png">
+			<span>F码</span>
+		</a>
+		<a href="javascript:;">
+			<img src="image/nav4.png">
+			<span>社区</span>
+		</a>
+		<a href="javascript:;">
+			<img src="image/nav5.png">
+			<span>一元夺宝</span>
+		</a>
+	</div>
+	<!-- 中间导航 -->
+	<!-- first news -->
+	<div class="first-news">
+		<span class="first-icon">
+			<img src="image/firsticon.jpg">
+		</span>
+		<div class="scrolltext">
+			<div class="first">
+				<a href="javascript:;">
+					<em class="first-mark">专题</em>
+					<i>“智能亦有温度”我和春天有个约会</i>
+				</a>
+				<a href="javascript:;">
+					<em class="first-mark">推荐</em>
+					<i>智能尖货明星产品大曝光！特惠一览无余~</i>
+				</a>
+				<a href="javascript:;">
+					<em class="first-mark">专题</em>
+					<i>这个春天，用智能为爱加分</i>
+				</a>
+				<a href="javascript:;">
+					<em class="first-mark">调查</em>
+					<i>360商城用户满意率调查问卷</i>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- first news -->
+	<!-- buy box -->
+	<div class="buy-box">
+		<div class="buy-menu">
+			<span class="buyred">
+				掌上抢
+			</span>
+			<div class="indexsettime">
+				<div class="starttime">
+					距结束<i>02</i>:<i>51</i>:<i>59</i>
+				</div>
+			</div>
+			<a href="javascript:;" class="session">热销酷品限时秒</a>
+		</div>
+		<div class="container-box">
+			<div class="containerBox-part">
+				<a href="javascript:;">
+					<span class="pimg">
+						<img src="image/buybox.jpg">
+						<span class="saleout">已抢光</span>
+					</span>
+					<span class="start-title">nut智能寻物防丢贴片（阳光橙）</span>
+					<span class="start-price">￥69</span>
+				</a>
+			</div>
+			<div class="containerBox-part">
+				<a href="javascript:;">
+					<span class="pimg">
+						<img src="image/buybox2.jpg">
+					</span>
+					<span class="start-title">360儿童卫士吊坠</span>
+					<span class="start-price">￥189
+					<i class="origin-price">￥269</i></span>
+				</a>
+			</div>
+			<div class="containerBox-part">
+				<a href="javascript:;">
+					<span class="pimg">
+						<img src="image/buybox3.jpg">
+					</span>
+					<span class="start-title">oracleen智能电动牙刷</span>
+					<span class="start-price">￥169
+					<i class="origin-price">￥199</i></span>
+				</a>
+			</div>
+		</div>
+	</div>
+	<!-- buy box -->
+	<!-- startproduct -->
+	<div class="start-product">
+		<h2 class="floor-title">
+			<em>--</em>
+			明星单品
+			<em>--</em>
+		</h2>
+		<ul class="star-plist">
+			<li class="home-product">
+				<a href="javascript:;">
+					<span class="star-tips">
+						<img src="image/startips.png">
+						<em>送内存卡</em>
+					</span>
+					<span class="pimg">
+						<img src="image/product1.jpg">
+					</span>
+					<span class="star-title">360智能摄像机夜视版</span>
+					<span class="star-price">
+						￥199
+					</span>
+				</a>
+			</li>
+			<li class="home-product">
+				<a href="javascript:;">
+					<span class="star-tips">
+						<img src="image/startips.png">
+						<em>光纤级</em>
+					</span>
+					<span class="pimg">
+						<img src="image/product2.jpg">
+					</span>
+					<span class="star-title">360安全路由5G</span>
+					<span class="star-price">
+						￥149
+					</span>
+				</a>
+			</li>
+		</ul>
+		<ul class="star-plist">
+			<li class="home-product">
+				<a href="javascript:;">
+					<span class="star-tips">
+						<img src="image/startips.png">
+						<em>送内存卡</em>
+					</span>
+					<span class="pimg">
+						<img src="image/product1.jpg">
+					</span>
+					<span class="star-title">360智能摄像机夜视版</span>
+					<span class="star-price">
+						￥199
+					</span>
+				</a>
+			</li>
+			<li class="home-product">
+				<a href="javascript:;">
+					<span class="star-tips">
+						<img src="image/startips.png">
+						<em>光纤级</em>
+					</span>
+					<span class="pimg">
+						<img src="image/product2.jpg">
+					</span>
+					<span class="star-title">360安全路由5G</span>
+					<span class="star-price">
+						￥149
+					</span>
+				</a>
+			</li>
+		</ul>
+		<ul class="star-plist">
+			<li class="home-product">
+				<a href="javascript:;">
+					<span class="star-tips">
+						<img src="image/startips.png">
+						<em>送内存卡</em>
+					</span>
+					<span class="pimg">
+						<img src="image/product1.jpg">
+					</span>
+					<span class="star-title">360智能摄像机夜视版</span>
+					<span class="star-price">
+						￥199
+					</span>
+				</a>
+			</li>
+			<li class="home-product">
+				<a href="javascript:;">
+					<span class="star-tips">
+						<img src="image/startips.png">
+						<em>光纤级</em>
+					</span>
+					<span class="pimg">
+						<img src="image/product2.jpg">
+					</span>
+					<span class="star-title">360安全路由5G</span>
+					<span class="star-price">
+						￥149
+					</span>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<!-- startproduct -->
+	<!-- 新品上市 -->
+	<div class="new-product">
+		<h2 class="floor-title">
+			<em>--</em>
+			新品上市
+			<em>--</em>
+		</h2>
+		<ul>
+			<li>
+				<a href="javascript:;">
+					<span>
+						<img src="image/newpro1.jpg">
+						<i class="price-r">￥149</i>
+					</span>
+					<strong class="ds-1">香港九猪便携多功能果汁杯</strong>
+					<p class="ds-2">
+						迷你全能榨汁杯 健康美味带着走 走到哪里榨到哪儿
+					</p>
+				</a>
+				<a href="javascript:;">
+					<span>
+						<img src="image/newpro1.jpg">
+						<i class="price-r">￥149</i>
+					</span>
+					<strong class="ds-1">香港九猪便携多功能果汁杯</strong>
+					<p class="ds-2">
+						迷你全能榨汁杯 健康美味带着走 走到哪里榨到哪儿
+					</p>
+				</a>
+				<a href="javascript:;">
+					<span>
+						<img src="image/newpro1.jpg">
+						<i class="price-r">￥149</i>
+					</span>
+					<strong class="ds-1">香港九猪便携多功能果汁杯</strong>
+					<p class="ds-2">
+						迷你全能榨汁杯 健康美味带着走 走到哪里榨到哪儿
+					</p>
+				</a>
+			</li>
+		</ul>
+	</div>
+	<!-- 新品上市 -->
+	<!-- 轮播js swiper -->
+	<script src="js/swiper.min.js"></script>
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+			pagination: '.swiper-pagination',
+			paginationClickable: true,
+			spaceBetween: 0,
+			centeredSlides: true,
+			autoplay: 2500,
+			autoplayDisableOnInteraction: false
+		});
+	</script>
+     <script src="js/zepto.min.js"></script>
+     <script src="js/index.js"></script>
+      <!-- 轮播js swiper -->
+</body>
+</html>

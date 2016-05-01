@@ -1,0 +1,364 @@
+ul,li,h1,h2,h3,h4,h5,h6{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: #666;
+}
+a:hover{
+	text-decoration: none;
+}
+/*顶部可关闭广告*/
+.top-ads{
+	width: 100%;
+	height: 42px;
+	background-color: #474747;
+}
+.closebtn{
+	width: 37px;
+	height: 100%;
+	color: #fff;
+	text-align: center;
+	line-height: 42px;
+	float: left;
+}
+.ads-img{
+	width: 42px;
+	height: 42px;
+	float: left;
+	background: url(../image/360mall.png) 0 0 no-repeat;
+	background-size: cover;
+}
+.top-ads>a{
+	display: block;
+	float: left;
+}
+.down-text{
+	height: 100%;
+	float: left;
+	line-height: 21px;
+	margin-left: 5px;
+	font-size: 14px;
+	color: #fff;
+}
+/*顶部可关闭广告*/
+/*中间导航*/
+.nav{
+	padding: 15px 0;
+	height: 103px;
+	width: 100%;
+	border-bottom: 1px solid #eaeaea;
+	background-color: #fff;
+}
+.nav>a{
+	width: 20%;
+	color: #666;
+	display: block;
+	font-size: 12px;
+	text-align: center;
+	float: left;
+}
+.nav>a>img{
+	border-radius: 30px;
+	display: block;
+	height: 50px;
+	margin: 0 auto;
+	width: 50px;
+}
+.nav>a>span{
+	margin-top: 7px;
+	display: block;
+}
+/*中间导航*/
+/*first news*/
+.first-news{
+	background-color: #fff;
+	padding: 12px 15px;
+}
+.first-icon{
+	border-right: 1px solid #e1e1e1;
+	float: left;
+	font-size: 12px;
+	height: 16px;
+	padding-right: 5px;
+}
+.first-icon>img{
+	font-size: 12px;
+	height: 16px;
+	width: 63px;
+	overflow: hidden;
+}
+.scrolltext{
+	height: 16px;
+	line-height: 16px;
+	overflow: hidden;
+	position: relative;
+}
+.first{
+	font-size: 11px;
+	line-height: 16px;
+	color: #444;
+	overflow: hidden;
+	position: absolute;
+}
+.first>a {
+    display: block;
+    font-size: 13px;
+    height: 16px;
+    line-height: 16px;
+}
+.first-mark{
+    color: #f66;
+    float: left;
+    font-style: normal;
+    padding: 0 5px;
+}
+.first>a>i{
+	display: block;
+	height: 16px;
+	line-height: 16px;
+	font-style: normal;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+/*first news*/
+/*buy box*/
+.buy-box{
+	background-color: #fff;
+	margin-top: 10px;
+}
+.buy-menu{
+	border-bottom: 1px solid #eaeaea;
+	height: 38px;
+	line-height: 38px;
+	padding: 0 15px;
+	position: relative;
+}
+.buyred{
+	color: #f55;
+	font-size: 15px;
+	display: inline-block;
+}
+.indexsettime{
+	color: #222;
+	display: inline-block;
+	font-size: 12px;
+	margin-left: 8px;
+}
+.starttime>i{
+	width: 22px;
+	height: 16px;
+	display: inline-block;
+	border: 1px solid #ccc;
+	line-height: 16px;
+	text-align: center;
+	margin-left: 5px;
+	margin-right: 3px;
+	font-style: normal;
+}
+.session{
+	color: #222;
+	font-size: 14px;
+	position: absolute;
+	right: 15px;
+	top: 0;
+}
+.container-box{
+	position: relative;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.containerBox-part{
+	width: 33.33%;
+	height: 100%;
+	border-right: 1px solid #eaeaea;
+	border-bottom: 1px solid #eaeaea;
+	float: left;
+}
+.containerBox-part>a{
+	display: block;
+	background: #fff;
+	margin: 10px 0;
+	text-align: center;
+}
+.pimg{
+	margin: 0 5px;
+	position: relative;
+	display: block;
+	text-align: center;
+}
+.pimg>img{
+	width: 95px;
+	height: 95px;
+	margin-right: 0 auto;
+	overflow: hidden;
+}
+.saleout{
+	background: rgba(0,0,0,0.2);
+    bottom: 0;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    left: 0;
+    position: absolute;
+    width: 95px;
+}
+.start-title{
+	margin: 5px 5px 0;
+	color: #555;
+    display: block;
+    font-size: 13px;
+    height: 16px;
+    line-height: 16px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.start-price{
+	margin: 5px 5px 0;
+	position: relative;
+	color: #f55;
+	display: block;
+	font-size: 14px;
+	text-align: center;
+}
+.start-price>.origin-price{
+	color: #aaa;
+    font-size: 10px;
+    font-style: normal;
+    text-decoration: line-through;
+}
+/*buy box*/
+/*stratproduct*/
+.floor-title{
+	color: #666;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    width: 100%;
+}
+.floor-title>em{
+	color: #ccc;
+	font-style: normal;
+}
+.star-plist{
+	background-color: #fff;
+	border-bottom: 1px solid #eaeaea;
+	overflow: hidden;
+}
+.star-plist>li{
+	padding: 15px 0 7px;
+	text-align: center;
+	border-right: 1px solid #f1f1f1;
+	width: 50%;
+	float: left;
+}
+.star-plist>li>a{
+	display: block;
+}
+.star-tips{
+	border: 1px solid #1e1e1e;
+	border-radius: 20px;
+	display: inline-block;
+	margin: 0 20px;
+	padding: 4px 9px 4px 5px;
+	vertical-align: middle;
+}
+.star-tips>img{
+	float: left;
+	height: 17px;
+	width: 17px;
+	overflow: hidden;
+}
+.star-tips>em{
+	color: #222;
+	float: left;
+	font-style: normal;
+	font-size: 13px;
+	height: 17px;
+	line-height: 17px;
+	margin-left: 5px;
+}
+.star-plist .pimg{
+	display: block;
+	margin: 7px 10px 0;
+	position: relative;
+	text-align: center;
+}
+.star-plist .pimg>img{
+	width: 150px;
+	margin: 0 auto;
+	height: 150px;
+	overflow: hidden;
+}
+.star-title{
+	color: #555;
+	display: block;
+	font-size: 13px;
+	height: 16px;
+	line-height: 16px;
+	margin: 7px 8px 0;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+.star-price{
+	color: #f55;
+    display: block;
+    font-size: 14px;
+    margin: 5px 8px 0;
+    text-align: center;
+}
+/*stratproduct*/
+/*new-product*/
+.new-product>ul>li>a{
+	display: block;
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+.new-product>ul>li>a>span{
+	display: block;
+	position: relative;
+}
+.new-product>ul>li>a>span>img{
+	width: 100%;
+	height: auto;
+}
+.price-r{
+	background: rgba(0,0,0,0.4);
+    bottom: 20px;
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    font-style: normal;
+    height: 27px;
+    line-height: 27px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    width: 54px;
+}
+.ds-1{
+	color: #222;
+    display: block;
+    font-size: 14px;
+    margin-top: 12px;
+    padding: 0 15px;
+}
+.ds-2{
+	color: #999;
+	font-size: 12px;
+	line-height: 15px;
+	margin-top: 6px;
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+	padding: 0 15px 14px;
+}
+/*new-product*/
